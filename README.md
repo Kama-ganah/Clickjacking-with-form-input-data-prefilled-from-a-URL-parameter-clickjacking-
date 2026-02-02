@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I assessed the user account management interface for UI redressing vulnerabilities. During testing, I identified a clickjacking issue caused by the absence of frame protections and the use of URL parameters to prefill sensitive form inputs. By embedding the account page within a transparent iframe and aligning a decoy element over the “Update email” action, I was able to trick a user into unknowingly modifying their account details. This project demonstrates how combining weak UI defenses with unsafe input handling can lead to unauthorized account changes through social engineering.
+I assessed the user account management interface for UI redressing vulnerabilities. During testing, I identified a clickjacking issue caused by the absence of frame protections and the use of URL parameters to prefill sensitive form inputs. By embedding the account page within a transparent iframe and aligning a decoy element over the “Update email” action, I was able to trick a user into unknowingly modifying their account details. This project demonstrates how combining weak UI defenses with unsafe input handling can lead to unauthorized account changes through social engineering.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Analyzed the account update functionality and identified URL-based input prefilling.
 
